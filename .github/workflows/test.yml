@@ -12,4 +12,4 @@ jobs:
     - name: Install dependencies
       run: pip install pytest
     - name: Run tests
-      run: pytest
+      run: pytest calculatorTest.py -v  # Yahan explicit file name diya hai
